@@ -1,6 +1,6 @@
 body{
     margin:0;
-    font-family: Arial, sans-serif;
+    font-family:Arial;
     background: linear-gradient(180deg,#4f46e5,#06b6d4);
     display:flex;
     justify-content:center;
@@ -8,24 +8,23 @@ body{
     height:100vh;
 }
 
+/* APP */
 .app{
     width:360px;
-    background:#fff;
-    border-radius:25px;
+    background:white;
+    border-radius:20px;
     overflow:hidden;
-    box-shadow:0 20px 50px rgba(0,0,0,0.3);
 }
 
-/* HEADER */
 .header{
     background:#4f46e5;
     color:white;
-    padding:20px;
     text-align:center;
+    padding:20px;
 }
 
 .logo{
-    font-size:20px;
+    font-size:18px;
     font-weight:bold;
 }
 
@@ -34,7 +33,6 @@ body{
     opacity:0.8;
 }
 
-/* CARD */
 .card{
     padding:20px;
 }
@@ -47,8 +45,8 @@ body{
 .amount{
     font-size:28px;
     font-weight:bold;
-    margin:10px 0;
     color:#16a34a;
+    margin:10px 0;
 }
 
 .divider{
@@ -74,11 +72,11 @@ body{
 .btn{
     width:100%;
     padding:12px;
-    border:none;
-    border-radius:12px;
     margin-top:10px;
-    cursor:pointer;
+    border:none;
+    border-radius:10px;
     font-weight:bold;
+    cursor:pointer;
 }
 
 .primary{
@@ -91,18 +89,55 @@ body{
     color:white;
 }
 
-/* STATUS */
 #status{
-    margin-top:10px;
     font-size:12px;
+    margin-top:10px;
     color:#444;
 }
 
-/* BOTTOM NAV */
-.bottom{
+/* SUCCESS PAGE */
+.success-card{
+    width:320px;
+    background:white;
+    padding:20px;
+    border-radius:20px;
+    text-align:center;
+}
+
+.check{
+    width:70px;
+    height:70px;
+    background:#16a34a;
+    color:white;
+    font-size:35px;
+    border-radius:50%;
     display:flex;
-    justify-content:space-around;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto 15px;
+}
+
+.success-card h2{
+    color:#16a34a;
+}
+
+.success-card p{
+    color:#555;
+}
+
+.box{
+    margin:15px 0;
     padding:10px;
-    border-top:1px solid #eee;
-    font-size:12px;
+    border:1px solid #eee;
+    border-radius:10px;
+}
+
+.success-card button{
+    padding:10px;
+    width:100%;
+    border:none;
+    background:#2563eb;
+    color:white;
+    border-radius:10px;
+    cursor:pointer;
 }
