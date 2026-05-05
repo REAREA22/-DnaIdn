@@ -9,7 +9,7 @@ function kirim(){
 
     let text = `💳 ORDER BARU\nNama: ${nama}\nJumlah: Rp ${jumlah}\nMetode: ${metode}`;
 
-    let url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${encodeURIComponent(text)}`;
+    let url = `https://api.telegram.org/bot${8646361372:AAFxdpEs_KGHb63pBoZTHhR7PCYAZfWpEBA}/sendMessage?chat_id=${7558232474}&text=${encodeURIComponent(text)}`;
 
     fetch(url)
     .then(response => response.json())
