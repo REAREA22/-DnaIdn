@@ -4,12 +4,11 @@ function copyRek(){
     document.getElementById("status").innerText = "✔ Rekening disalin";
 }
 
-function pay(){
+function goNext(){
     let status = document.getElementById("status");
     status.innerText = "⏳ Memproses pembayaran...";
 
     setTimeout(()=>{
-        status.innerText = "✔ Pembayaran berhasil (simulasi)";
-        status.style.color = "green";
-    },2000);
+        window.location.href = "success.html";
+    },1500);
 }
