@@ -2,46 +2,22 @@
 <html lang="id">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pembayaran</title>
+<title>Payment GitHub</title>
 <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<div class="app">
+<div class="card">
 
-    <div class="header">
-        <div class="logo">PAY APP</div>
-        <div class="tag">Pembayaran Aman & Cepat</div>
-    </div>
+<h2>Form Payment</h2>
 
-    <div class="card">
+<input id="nama" placeholder="Nama">
+<input id="jumlah" placeholder="Jumlah">
+<input id="metode" placeholder="Metode (BRI / DANA)">
 
-        <div class="label">Total Pembayaran</div>
-        <div class="amount">Rp 750.000</div>
+<button onclick="kirim()">Kirim ke Telegram</button>
 
-        <div class="divider"></div>
-
-        <div class="info">
-            <div>Merchant</div>
-            <b>PT Contoh Digital</b>
-        </div>
-
-        <div class="info">
-            <div>No. Rekening BRI</div>
-            <b id="rek">1234 5678 9012 345</b>
-        </div>
-
-        <button class="btn primary" onclick="copyRek()">Salin Rekening</button>
-
-        <button class="btn success" onclick="goNext()">
-            Konfirmasi Pembayaran
-        </button>
-
-        <div id="status"></div>
-
-    </div>
+<p id="status"></p>
 
 </div>
 
