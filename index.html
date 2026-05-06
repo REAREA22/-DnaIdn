@@ -3,44 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DANA Clone</title>
+  <title>Pinjaman Dana Tanpa Ribet</title>
+
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
+<!-- HEADER -->
 <header class="header">
-  <img src="assets/logo.png" class="logo">
+  <div class="logo">DANA</div>
+  <div class="tagline">#BAYAR NO RIBET</div>
 </header>
 
-<section class="banner">
-  <img src="assets/banner.jpg" class="banner-img">
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-left">
+    <h1>
+      Pinjaman Dana <br>
+      <span>Tanpa Ribet</span>
+    </h1>
+
+    <p>Cepat, mudah, dan langsung cair ke akun Anda</p>
+
+    <div class="info-box">
+      <div>✔ 100% Online</div>
+      <div>⚡ Proses Cepat</div>
+      <div>💸 Cair Instan</div>
+    </div>
+
+    <div class="limit-box">
+      Pinjaman hingga <strong>20 Juta</strong>
+    </div>
+
+    <a href="#" class="btn-primary">Ajukan Pinjaman Sekarang</a>
+  </div>
+
+  <div class="hero-right">
+    <!-- GANTI GAMBAR DI SINI -->
+    <img src="poster.png" alt="Poster">
+  </div>
 </section>
 
-<section class="card">
-  <h3>Silahkan Pilih Sesuai Dengan Kebutuhan Anda di Bawah Ini</h3>
+<!-- FITUR -->
+<section class="features">
+  <h2>Pilih Sesuai Kebutuhan Anda</h2>
 
-  <div class="option active" onclick="selectOption(this)">
-    <div class="radio"></div>
-    AKTIFKAN DANA PAYLATER
-  </div>
+  <div class="card-container">
 
-  <div class="option" onclick="selectOption(this)">
-    <div class="radio"></div>
-    AKTIFKAN DANA CICIL
-  </div>
+    <div class="card blue">
+      <h3>Ajukan Pinjaman</h3>
+      <p>Proses cepat dan 100% online</p>
+      <button>Ajukan</button>
+    </div>
 
-  <div class="option" onclick="selectOption(this)">
-    <div class="radio"></div>
-    LAPORKAN KENDALA AKUN
+    <div class="card yellow">
+      <h3>Aktifkan Cicilan</h3>
+      <p>Bayar lebih fleksibel</p>
+      <button>Aktifkan</button>
+    </div>
+
+    <div class="card green">
+      <h3>Laporkan Kendala</h3>
+      <p>Kami siap membantu</p>
+      <button>Laporkan</button>
+    </div>
+
   </div>
 </section>
 
-<div class="btn">Konfirmasi</div>
+<!-- CTA -->
+<section class="cta">
+  <a href="#">Mulai Sekarang</a>
+</section>
 
+<!-- FOOTER -->
 <footer class="footer">
-  <img src="assets/footer-logo.png">
+  <p>Terdaftar & Diawasi OJK</p>
+  <small>Aman • Cepat • Transparan</small>
 </footer>
 
-<script src="script.js"></script>
 </body>
 </html>
